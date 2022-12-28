@@ -1,29 +1,25 @@
-# Testes automatizados com Cypress - Básico
+# Testes automatizados com Cypress - Central de Atendimento ao Cliente
 
 👋 Seja bem-vindo(a)!
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+É muito bom tê-lo(a) aqui.
 
-## O que você vai aprender
+## O que contém o projeto?
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+Esse é um projeto de testes em cypress com o objetivo de aprender Cypress. 
+- Testes localizando elementos, digitando e clicando em elementos de forma automatizada.
+- Seleção de campos do tipo checkbox, radio e select.
+- Upload de arquivos com cypress.
+- Testes em viewport mobile.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Quais são os pré-requisitos? 
+- Node.js
+- npm
+- git
+- e um navegador
 
 ## Vamos começar?
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Para instalar as dependências, basta fazer um fork do projeto, abrir em seu VS Code e rodar o comando npm install
 
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Para rodar os testes, você poderá digitar no terminal o comando npx cypress open
